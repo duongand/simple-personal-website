@@ -30,7 +30,7 @@ header::after {
 
 /* Item center alignment */
 .introduction, .contact-information {
-    padding-top: 15px;
+    padding-top: 30px;
     text-align: center;
 }
 
