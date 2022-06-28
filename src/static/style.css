@@ -1,0 +1,10 @@
+/* Introduction text alignment */
+.introduction {
+    text-align: center;
+}
+
+/* Image resizing to appropriately fit into homepage */
+.self-portrait {
+    width: 200px;
+    height: auto;
+}
