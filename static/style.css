@@ -1,12 +1,43 @@
+header {
+    background: gray;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::after */
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbar a {
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+
+    position: relative;
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
 /* Item center alignment */
 .introduction, .contact-information {
+    padding-top: 15px;
     text-align: center;
 }
 
 /* Image resizing to appropriately fit into homepage */
 .self-portrait {
     width: 200px;
-    height: auto;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
 }
