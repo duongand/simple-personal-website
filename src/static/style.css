@@ -1,5 +1,5 @@
-/* Introduction text alignment */
-.introduction {
+/* Item center alignment */
+.introduction, .contact-information {
     text-align: center;
 }
 
@@ -7,4 +7,6 @@
 .self-portrait {
     width: 200px;
     height: auto;
+    object-fit: cover;
+    border-radius: 50%;
 }
