@@ -2,7 +2,7 @@
 
 This project provided a simplified version of a personal website using only HTML and CSS.
 
-[Live Demo](duongand.github.io/)
+[Live Demo](https://duongand.github.io/)
 
 ![demo-screenshot](./static/demo-screenshot.png)
 
