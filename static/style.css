@@ -9,23 +9,42 @@ header::after {
     clear: both;
 }
 
-.navbar a {
+/* Float navigation buttons to the left of the container */
+nav {
+    float: left;
+}
+
+/* Removes the extra spacing surrounding the navigation buttons
+and removes the list dots */
+nav ul {
     margin: 0;
-    padding: 15px;
+    padding: 0;
     list-style: none;
+}
+
+/* Aligns the list items to be horizontally aligned,
+add extra spacing to the left of the buttons and spacing surrounding button
+ */
+nav li {
     display: inline-block;
+    margin-left: 7px;
+    padding: 15px;
+}
 
-    position: relative;
+/* Selects both the <li> and <a> element to change color when hovering
+over the button */
+nav li:hover > a, nav li:hover {
+    background-color: white;
+    color: black;
+}
 
+/* Default display of the buttons with white text, no text-decoration,
+uppercased, and 14px font sizing */
+nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-}
-
-.navbar a:hover {
-    background-color: lightgrey;
-    color: black;
 }
 
 /* Item center alignment */
