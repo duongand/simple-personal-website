@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background: gray;
 }
@@ -9,51 +15,47 @@ header::after {
     clear: both;
 }
 
-/* Float navigation buttons to the left of the container */
 nav {
     float: left;
-}
-
-/* Removes the extra spacing surrounding the navigation buttons
-and removes the list dots */
-nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/* Aligns the list items to be horizontally aligned,
-add extra spacing to the left of the buttons and spacing surrounding button
- */
-nav li {
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
     display: inline-block;
     margin-left: 7px;
     padding: 15px;
 }
 
-/* Selects both the <li> and <a> element to change color when hovering
-over the button */
 nav li:hover > a, nav li:hover {
     background-color: white;
     color: black;
 }
 
-/* Default display of the buttons with white text, no text-decoration,
-uppercased, and 14px font sizing */
-nav a {
+.link {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
 
-/* Item center alignment */
-.introduction, .contact-information {
+.introduction {
     padding-top: 30px;
     text-align: center;
 }
 
-/* Image resizing to appropriately fit into homepage */
+.contact-information {
+    padding-top: 30px;
+    text-align: center;
+}
+
 .self-portrait {
     width: 200px;
     height: 200px;
